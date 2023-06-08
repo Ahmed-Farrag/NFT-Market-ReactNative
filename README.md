@@ -28,3 +28,9 @@ in constants folder
 * handle navigation to move to home page
 * handle animation
 * handle saveArea view
+
+# home page
+
+- nft card
+- nft image
+- nft avatar
