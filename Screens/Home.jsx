@@ -8,12 +8,15 @@ import {
 import React, { useState } from "react";
 import { COLORS, DATA, FONTS, SIZES } from "../Constants";
 import NFTCard from "../Components/NFTCard";
+import HomeHeader from "../Components/HomeHeader";
 
 const Home = () => {
   const [nftsData, setNftsData] = useState(DATA);
+  const searchHandler = () => {};
   return (
     <SafeAreaView style={styles.container}>
       <View style={{ flex: 1 }}>
+        <HomeHeader searchHandler={searchHandler} />
         <FlatList
           data={nftsData}
           renderItem={({ item }) => <NFTCard NFTData={item} />}

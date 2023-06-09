@@ -34,3 +34,7 @@ in constants folder
 - nft card
 - nft image
 - nft avatar
+- nft title
+- nft date
+
+* icon from expo

@@ -10,6 +10,7 @@ import { COLORS, SIZES } from "../Constants";
 import NFTImage from "./NFTImage";
 import NFTAvatars from "./NFTAvatars";
 import NFTTitle from "./NFTTitle";
+import NFTInfo from "./NFTInfo";
 
 const NFTCard = ({ NFTData }) => {
   return (
@@ -26,7 +27,14 @@ const NFTCard = ({ NFTData }) => {
           creator={NFTData.creator}
           date={NFTData.date}
         />
-        <View style={{ marginTop: SIZES.small + 5 }}></View>
+        <View style={{ marginTop: SIZES.small + 5 }}>
+          <NFTInfo
+            comments={NFTData.comments}
+            views={NFTData.views}
+            price={NFTData.price}
+            love
+          />
+        </View>
       </View>
     </SafeAreaView>
   );

@@ -3,6 +3,8 @@ import React from "react";
 import { COLORS, FONTS, SIZES } from "../Constants";
 import NFTDate from "./NFTDate";
 
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+
 const NFTTitle = ({ _name, creator, date }) => {
   return (
     <View>
@@ -24,7 +26,11 @@ const NFTTitle = ({ _name, creator, date }) => {
           }}
         >
           <Text style={styles.textCreator}>{creator}</Text>
-          <Text>Icon</Text>
+          <MaterialCommunityIcons
+            name="check-decagram"
+            size={24}
+            color="white"
+          />
         </View>
         <NFTDate date={date} />
       </View>
