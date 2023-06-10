@@ -1,3 +1,5 @@
+![alt text](./assets/1.png)
+![alt text](./assets/2.png)
 
 # npm i expo-font
 
