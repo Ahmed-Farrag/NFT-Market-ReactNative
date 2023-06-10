@@ -1,3 +1,4 @@
+
 # npm i expo-font
 
 - handle fonts
@@ -36,5 +37,9 @@ in constants folder
 - nft avatar
 - nft title
 - nft date
+- nft info
+- homeheader
 
 * icon from expo
+* handle navigation to nft-details screen
+* last create ui and functionalty for nft-details screen
