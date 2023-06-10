@@ -1,22 +1,26 @@
+![Alt text](./assets/1.png)
+![Alt text](./assets/2.png)
 
-# npm i expo-font
+# development process
 
-- handle fonts
-- handle image and avatar folder
+* npm i expo-font
 
-# type data
+* handle fonts
+* handle image and avatar folder
+
+* type data
 
 in constants folder
 
 - react navigation to handle navigation
 
-# create components in screens folder
+* create components in screens folder
 
 - Welcome
 - Home
 - NFTDetails
 
-# to create theme for mobile app
+* to create theme for mobile app
 
 - create file in constants folder to add pixelRatio
   -fontScale
@@ -30,7 +34,7 @@ in constants folder
 * handle animation
 * handle saveArea view
 
-# home page
+* home page
 
 - nft card
 - nft image
